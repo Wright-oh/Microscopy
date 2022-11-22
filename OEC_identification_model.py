@@ -1,3 +1,8 @@
+# This code can be trained on a dataset then fed new images that it will be able to identify based on the features of the trained set.
+# Images must be 128x128 with RGB (not RGBA)
+# Train path is where the training images are. Train masks are where the masks for identifying the selected regions are placed. (They must have the same name)
+# Test path is where new images are placed to test the model.
+
 import tensorflow as tf
 import os
 import random
