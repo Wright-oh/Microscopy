@@ -1,3 +1,5 @@
+# This code will measure the area of flat surface in a brightfield image - can be used for measuring scratch wound assays.
+
 import matplotlib.pyplot as plt
 from skimage.filters.rank import entropy
 from skimage.morphology import disk
