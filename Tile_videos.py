@@ -1,4 +1,5 @@
-# Import everything needed to edit video clips
+# This file can be used to stitch multiple videos together into a matrix.
+
 from moviepy.editor import *
 
 # Open video files.
