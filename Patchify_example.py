@@ -1,3 +1,5 @@
+# This code will cut image Raw_image into several smaller output images. Adjust file names as required
+
 from patchify import patchify
 from skimage import img_as_ubyte
 import os
@@ -7,7 +9,7 @@ import cv2
 
 # Open image and cut it into smaller images for processing
 Raw_image = 'LOECs/IMAGE_1.tif'
-img_large = img_as_ubyte(cv2.imread('LOECs/IMAGE_1.tif', 1))
+img_large = img_as_ubyte(cv2.imread(Raw_image, 1))
 filename, file_extension = os.path.splitext(Raw_image)
 print('filename is ' + filename)
 print('file ext is ' + file_extension)
